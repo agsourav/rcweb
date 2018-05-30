@@ -1,0 +1,41 @@
+ body{
+	 background: url('rchitk2017-18.jpeg') no-repeat;
+	 font-family: Arial;
+	 background-size: cover;
+}
+.container{
+	background:black;
+	color: white;
+	max-width: 300%;
+	min-width: 400px;
+}
+.container ul{
+	 margin: 0px;
+	 padding: 0px;
+	 list-style: none;
+}
+.container ul li{
+	 background-color: black;
+	 float: left;
+	 background-size: cover;
+	 width: 200px;
+	 height: 40px;
+	 opacity: .8;
+	 line-height:40px;
+	 text-align: center;
+	 font-size: 15px;
+	 margin-right: 2px;
+}
+.container ul li a{
+	text-decoration:none;
+	display: block;
+}
+.container ul li a:hover{
+	background-color: purple;
+}
+.container ul li ul li{
+	display: none;
+}
+ .container ul li:hover ul li{
+	display: block;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    background-color: blue;
+    margin-top: 75px;
+}
+.container{
+	margin: 20px;
+}
+
+.center{
+	text-align:center;
+}
+.text-big{
+	font-size:200%;
+}
+.text-medium{
+	font-size:100%;
+}
+.img-medium{
+	height:200px;
+}
+	
